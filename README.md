@@ -1,44 +1,28 @@
-# Ellection_Analysis
+# Scool District Analysis
 
-## Overview of the project
-The election commission has requested some additional data to complete the audit:
+## Overview of the school district analysis
+The school board has notified that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards. We have to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Then we have to repeat the school district analysis.
 
-* The voter turnout for each county
-* The percentage of votes from each county out of the total count
-* The county with the highest turnout
+## Results
 
-## Election Audit Results
+- How is the district summary affected?
+We can detect a small decrease in the averages. The overall average decreased 0.3
+![District_Summary_Anterior](/Resources/District_Summary_Anterior.png)
+![Data](/Resources/District_Summary_Nuevo.png)
 
-1. How many votes were cast in this congressional election?
+- How is the school summary affected?
 
-369,711
+- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+- How does replacing the ninth-grade scores affect the following:
+
+  - Math and reading scores by grade
   
-2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-
-County Votes:
-
-Jefferson: 10.5% 38,855
-
-Denver: 82.8% 306,055
-
-Arapahoe: 6.7% 24,801
-
-3. Which county had the largest number of votes?
-
-Denver
-
-4. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-
-Charles Casper Stockham: 23.0% (85,213)
-Diana DeGette: 73.8% (272,892)
-Raymon Anthony Doane: 3.1% (11,606)
-
-5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-
-Winner: Diana DeGette
-Winning Vote Count: 272,892
-Winning Percentage: 73.8%
-
+  - Scores by school spending
+  
+  - Scores by school size
+  
+  - Scores by school type
 ## Election Audit Recomendations
 
 We can use the same code to analyze other elections. To achieve this goal we have to consider change some things in our current code
