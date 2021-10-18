@@ -6,34 +6,43 @@ The school board has notified that the students_complete.csv file shows evidence
 ## Results
 
 - How is the district summary affected?
+
 We can detect a small decrease in the averages. The overall average decreased 0.3
 ![District_Summary_Anterior](/Resources/District_Summary_Anterior.png)
 ![Data](/Resources/District_Summary_Nuevo.png)
 
 - How is the school summary affected?
 
+Although Thomas High School has a little decrese in its average it remains in the second position
+
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+Although Thomas High School has a little decrese in its average it remains in the second position
 
 - How does replacing the ninth-grade scores affect the following:
 
   - Math and reading scores by grade
+
+It is not any affection for 10th, 11th and 12th grade. In 9th grade we don´t have grades for Thomas High School.
   
   - Scores by school spending
+
+There are very little differences in the $630 - $644 renge (this is the range of Thomas High School) 
   
   - Scores by school size
+
+Once again very small differnces in medium size scools (not relevant)
   
   - Scores by school type
-## Election Audit Recomendations
 
-We can use the same code to analyze other elections. To achieve this goal we have to consider change some things in our current code
+Not relevant differences in Charter schools
 
-1. The first thing we need to consider is changing the name of files we need to open and the paths
+## Summary
 
-```# Add a variable to load a file from a path.
-file_to_load = os.path.join("Resources", "election_results.csv")
-```
+- There are not relevant differences in the district results
 
-2. The second thing to consider is having the data organized in the same way that it is organized now. For instance:
+- The main differences found were in the results of Thomas High School individualy
 
+- The largest difference found is in the overall passing percentage in Thomas High Scool (0.3)
 
-![Data](imagen_datos.png)
+- Math and reading passing percentages increased in Thomas High School
